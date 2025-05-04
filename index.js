@@ -11,6 +11,8 @@ app.use('/game', require('./src/routes/game.route'));
 app.use('/review', require('./src/routes/review.route'));
 
 
-app.listen(port, () => {
-    console.log(`Server is running on port ${port}`);
-});
+// app.listen(port, () => {
+//     console.log(`Server is running on port ${port}`);
+// });
+
+module.exports = app;
